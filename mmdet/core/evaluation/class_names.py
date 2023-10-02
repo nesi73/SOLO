@@ -81,6 +81,8 @@ def coco_classes():
         'scissors', 'teddy_bear', 'hair_drier', 'toothbrush'
     ]
 
+def copilot_classes():
+    return ['panel', 'cropped_panel']
 
 def cityscapes_classes():
     return [
@@ -94,6 +96,7 @@ dataset_aliases = {
     'imagenet_det': ['det', 'imagenet_det', 'ilsvrc_det'],
     'imagenet_vid': ['vid', 'imagenet_vid', 'ilsvrc_vid'],
     'coco': ['coco', 'mscoco', 'ms_coco'],
+    'copilot' : ['copilot'],
     'wider_face': ['WIDERFaceDataset', 'wider_face', 'WDIERFace'],
     'cityscapes': ['cityscapes']
 }

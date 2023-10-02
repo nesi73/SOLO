@@ -8,9 +8,10 @@ from .registry import DATASETS
 from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
+from .copilot import CopilotDataset
 
 __all__ = [
-    'CustomDataset', 'XMLDataset', 'CocoDataset', 'VOCDataset',
+    'CustomDataset', 'XMLDataset', 'CopilotDataset', 'CocoDataset', 'VOCDataset',
     'CityscapesDataset', 'GroupSampler', 'DistributedGroupSampler',
     'build_dataloader', 'ConcatDataset', 'RepeatDataset', 'WIDERFaceDataset',
     'DATASETS', 'build_dataset'
